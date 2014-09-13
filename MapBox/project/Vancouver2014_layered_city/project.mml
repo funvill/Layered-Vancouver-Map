@@ -1,0 +1,402 @@
+{
+  "bounds": [
+    -123.2441,
+    49.1973,
+    -123.0168,
+    49.319
+  ],
+  "center": [
+    -123.1293,
+    49.2588,
+    9
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 0,
+  "maxzoom": 22,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
+      },
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -123.26620854246595,
+        49.199483700031145,
+        -123.0228835418425,
+        49.31418359046974
+      ],
+      "id": "shoreline2002",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Steven\\Documents\\GitHub\\Layered-Vancouver-Map\\vancouver_open_data\\shorelines2002_shp\\shoreline2002.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "shoreline2002",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -123.2219508979248,
+        49.20082351596702,
+        -123.01233343317676,
+        49.29381856183855
+      ],
+      "id": "alleyways",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Steven\\Documents\\GitHub\\Layered-Vancouver-Map\\vancouver_open_data\\alleyways_shp\\alleyways.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "alleyways",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -123.2235190188692,
+        49.19729920396452,
+        -123.02335360634805,
+        49.31436138992511
+      ],
+      "id": "bikeways",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Steven\\Documents\\GitHub\\Layered-Vancouver-Map\\vancouver_open_data\\bikeways_shp\\bikeways.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "bikeways",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -123.19658713015012,
+        49.20266909218252,
+        -123.02351387809111,
+        49.29440111784885
+      ],
+      "id": "buildinglines",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Steven\\Documents\\GitHub\\Layered-Vancouver-Map\\vancouver_open_data\\building_lines_shp\\building_lines.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "buildinglines",
+      "status": "off"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -123.20429603210499,
+        49.21427185047716,
+        -123.03211547040775,
+        49.290229302877215
+      ],
+      "id": "communitycentres",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Steven\\Documents\\GitHub\\Layered-Vancouver-Map\\vancouver_open_data\\community_centres_shp\\community_centres.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "communitycentres"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -123.23527979937705,
+        49.19972502233931,
+        -123.0123221929894,
+        49.29772577926417
+      ],
+      "id": "districtlotoutlines",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Steven\\Documents\\GitHub\\Layered-Vancouver-Map\\vancouver_open_data\\district_lot_outlines_shp\\district_lot_outlines.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "districtlotoutlines",
+      "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -123.23593464186118,
+        49.205439081829034,
+        -123.02533200153191,
+        49.29534980210513
+      ],
+      "id": "dogoffleashareas",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Steven\\Documents\\GitHub\\Layered-Vancouver-Map\\vancouver_open_data\\dog_off_leash_areas_shp\\dog_off_leash_areas.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "dogoffleashareas"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -123.22355395526965,
+        49.20503988848723,
+        -123.02362522926131,
+        49.31413703733035
+      ],
+      "id": "greenways",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Steven\\Documents\\GitHub\\Layered-Vancouver-Map\\vancouver_open_data\\greenways_shp\\greenways.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "greenways"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -123.22670844934602,
+        49.20153183395306,
+        -123.02317810511673,
+        49.301111711785346
+      ],
+      "id": "gvrdtrunkmains",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Steven\\Documents\\GitHub\\Layered-Vancouver-Map\\vancouver_open_data\\gvrd_trunk_mains_shp\\gvrd_trunk_mains.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "gvrdtrunkmains",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -123.2040020697759,
+        49.198850871048826,
+        -123.01240903594693,
+        49.31374741607404
+      ],
+      "id": "noncitystreets",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Steven\\Documents\\GitHub\\Layered-Vancouver-Map\\vancouver_open_data\\non_city_streets_shp\\non_city_streets.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "noncitystreets",
+      "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -123.22348408883524,
+        49.19999693949764,
+        -123.02379577049429,
+        49.314209313041545
+      ],
+      "id": "parkpolygons",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Steven\\Documents\\GitHub\\Layered-Vancouver-Map\\vancouver_open_data\\park_polygons_shp\\park_polygons.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "parkpolygons"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -123.21885430537182,
+        49.200229561416,
+        -123.02448004949936,
+        49.29815325609175
+      ],
+      "id": "parks",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Steven\\Documents\\GitHub\\Layered-Vancouver-Map\\vancouver_open_data\\parks_shp\\parks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "parks",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -123.22958428770806,
+        49.2001683242594,
+        -123.01233264083754,
+        49.29458507758492
+      ],
+      "id": "publicstreets",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Steven\\Documents\\GitHub\\Layered-Vancouver-Map\\vancouver_open_data\\public_streets_shp\\public_streets.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "publicstreets",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -123.15540164546167,
+        49.19946130755557,
+        -123.01231985444764,
+        49.29342672602862
+      ],
+      "id": "railways",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Steven\\Documents\\GitHub\\Layered-Vancouver-Map\\vancouver_open_data\\railways_shp\\railways.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "railways",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -123.12482745034767,
+        49.19687766775285,
+        -123.01232737359955,
+        49.28816674559684
+      ],
+      "id": "rapidtransitline",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Steven\\Documents\\GitHub\\Layered-Vancouver-Map\\vancouver_open_data\\rapid_transit_line_shp\\rapid_transit_line.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "rapidtransitline",
+      "status": "off"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -123.12173094942125,
+        49.20954305716198,
+        -123.03183740875724,
+        49.28612512337692
+      ],
+      "id": "rapidtransitstations",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Steven\\Documents\\GitHub\\Layered-Vancouver-Map\\vancouver_open_data\\rapid_transit_stations_shp\\rapid_transit_stations.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "rapidtransitstations",
+      "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -123.22444326833579,
+        49.19937933068957,
+        -123.02332822948031,
+        49.31625792779283
+      ],
+      "id": "zoningdistricts",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Steven\\Documents\\GitHub\\Layered-Vancouver-Map\\vancouver_open_data\\zoning_districts_shp\\zoning_districts.shp",
+        "id": "zoningdistricts",
+        "project": "Vancouver2014_layered_city",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "zoningdistricts",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -123.26601360878804,
+        49.19949421491508,
+        -123.02333417079723,
+        49.314163962954964
+      ],
+      "id": "10metrecontourlines",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Steven\\Documents\\GitHub\\Layered-Vancouver-Map\\vancouver_open_data\\shape_contour_lines\\10-metre_contour_lines.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "10metrecontourlines",
+      "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -123.22444521235516,
+        49.199576446889004,
+        -123.02336007283319,
+        49.295405022796714
+      ],
+      "id": "csgneighborhoodareas",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Steven\\Documents\\GitHub\\Layered-Vancouver-Map\\vancouver_open_data\\localAreaBoundary\\csg_neighborhood_areas.shp",
+        "id": "csgneighborhoodareas",
+        "project": "Vancouver2014_layered_city",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "csgneighborhoodareas",
+      "status": "off"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "Vancouver layered map",
+  "description": "",
+  "attribution": ""
+}
